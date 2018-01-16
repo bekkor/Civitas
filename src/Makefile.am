@@ -268,6 +268,8 @@ libbitcoin_wallet_a_SOURCES = \
 # crypto primitives library
 crypto_libbitcoin_crypto_a_CFLAGS = -fPIC
 crypto_libbitcoin_crypto_a_CPPFLAGS = $(BITCOIN_CONFIG_INCLUDES)
+crypto_libbitcoin_crypto_a_HEADERS = \
+  crypto/sph_md_helper.c
 crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sha1.cpp \
   crypto/sha256.cpp \
@@ -277,7 +279,6 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/hmac_sha512.cpp \
   crypto/scrypt.cpp \
   crypto/ripemd160.cpp \
-  crypto/sph_md_helper.c \
   crypto/sph_sha2big.c \
   crypto/aes_helper.c \
   crypto/blake.c \
