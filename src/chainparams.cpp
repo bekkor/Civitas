@@ -122,13 +122,12 @@ public:
         /** Height or Time Based Activations **/
         nLastPOWBlock = 259200;
         nModifierUpdateBlock = 999999999;
-        nZerocoinStartHeight = 3030;
-        nAccumulatorStartHeight = 1;
-        nZerocoinStartTime = 1516081473; // 2018-01-14T16:04:58
-        nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = ~1; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = ~1; //Last valid accumulator checkpoint
+        nZerocoinStartHeight = 3029;
+        nZerocoinStartTime = 1516000500; // 2018-01-14T16:04:58
+        nBlockEnforceSerialRange = 3033; //Enforce serial range starting this block
+        nBlockRecalculateAccumulators = 3030; //Trigger a recalculation of accumulators
+        nBlockFirstFraudulent = 3032; //First block that bad serials emerged
+        nBlockLastGoodCheckpoint = 3035; //Last valid accumulator checkpoint
         
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot

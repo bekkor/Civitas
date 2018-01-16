@@ -1,4 +1,3 @@
-.gitignore
 *.sublime-project
 *.sublime-workspace
 todo.txt
@@ -86,6 +85,7 @@ src/qt/test/moc*.cpp
 Makefile
 civitas-qt
 Civitas-Qt.app
+civitas-Qt.app
 
 # Unit-tests
 Makefile.test
